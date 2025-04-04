@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+font-family: "Open Sans", sans-serif;
+}
+
+html,body{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+
+#main
+{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 7%;
+    width: 100%;
+    background-color:  #191d1d;
+    position: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.head{
+    height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #fff;
+  max-width: 1280px;
+  margin: 0 auto; 
+}
+.logo{
+    margin-top: 10px;
+    width: 128px;
+    justify-content: space-around;
+    
+}
+.address {
+  margin-left: 20px;
+  font-size: 0.75rem;
+  color: #ffffff;
+}
+.map-icon{
+  border-radius: 50%;
+  }
+.deliver {
+    margin-left: 20px;
+    font-size: 0.75rem;
+    color: #cccccc;
+}
+.address .map-icon {
+    display: flex;
+    align-items: center;
+  }
+  .search {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 620px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+  }
+  .select-search {
+    background: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+  }
+  .search-input {
+    max-width: 600px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+  }
+  .search-icon {
+    max-width: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #febd68;
+    color: #000;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    justify-content: space-around;
+  }
+  .search-icon:hover{
+    background: #f5b096;
+  }
+
+  #fakeheader{
+    height: 7%;
+    width: 100%;
+   background-color: #febd68;
+   
+     
+  }
+
+ #header2{
+  padding: 10px 20px;
+  background: #222f3d;
+  color: #fff;
+  height: 4%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size:small;
+  
+ }
+
+.menu{
+  display: flex;
+  justify-content:baseline;
+}
+
+.text:hover{
+  color:#c3c8ce
+}
+
+
+#page1{
+  height: 90%;
+  width: 100%;
+  background-color: #d4d4d4;
+  justify-content: center;
+  align-items:center;
+  display: flex;
+ 
+ }
+ #items1{
+  height: 90%;
+  width: 85%;
+  
+  background-color: #ffffff;
+  scrollbar-shadow-color: #c3c8ce;
+  display: flex;
+  justify-content:space-between;
+  align-items:self-end
+
+ 
+ }
+
+
+  #box1{
+  height: 40%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box2{
+  height: 40%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box3{
+  height: 40%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box4{
+  height: 40%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box5{
+  height: 40%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+
+
+ #page2{
+  height: 45%;
+  width: 100%;
+  background-color: #d4d4d4;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+ }
+ #items2{
+  height: 90%;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  scrollbar-shadow-color: #c3c8ce;
+  
+ 
+ }
+ #box6{
+  height: 80%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box7{
+  height: 80%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box8{
+  height: 80%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box9{
+  height: 80%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box10{
+  height: 80%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+
+ #page3{
+  height: 45%;
+  width: 100%;
+  background-color: #d4d4d4;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ }
+ #items3{
+  height: 90%;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  scrollbar-shadow-color: #c3c8ce;
+  
+ 
+ }
+ #box11{
+  height: 80%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box12{
+  height: 80%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box13{
+  height: 80%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box14{
+  height: 80%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+ #box15{
+  height: 80%;
+  width: 15%;
+  background-color: #222f3d;
+  margin: 30px;
+  
+ }
+
+ #page4{
+  height: 60%;
+  width: 100%;
+  background-color: #d4d4d4;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ 
+  #items4{
+    height: 90%;
+    width: 85%;
+    
+    background-color:  #c3c8cef;
+    scrollbar-shadow-color: #c3c8ce;
+    display: flex;
+   justify-content: space-between;
+   }
+ }
+ #page41{
+ height: 100%;
+ width: 48%;
+  background-color:  #ffffff;
+  
+ }
+ #page51{
+  height: 100%;
+  width: 48%;
+  background-color:  #ffffff;
+ 
+ }
+
+
+ #page5{
+  height: 45%;
+  width: 100%;
+  background-color: #d4d4d4;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ }
+ #items5{
+  height: 90%;
+  width: 85%;
+  
+  background-color: #ffffff;
+  scrollbar-shadow-color: #c3c8ce;
+  }
+
+
+
+
+
+
+ #login{
+  width: 100%;
+  height:20%;
+  border:1px solid black;
+  border-style:groove;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ 
+ }
+#t1{
+  width: 100;
+  text-align: center;
+  justify-content: center;
+  display:inline;
+  
+}
+ #sign{
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 208, 0, 0.884);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+ 
+ }
+#sign p{
+  font-size:small;
+  text-align: center;
+  
+}
+#sign:hover{
+  background-color: rgb(247, 224, 113);
+}
+#footer{
+  width: 100%;
+  height:50%;
+  background-color: #222f3d;
+  color: #ffffff;
+  justify-content:center;
+  align-items: normal;
+  
+  
+  
+}
+#footer p{
+  padding:10px;
+}
+
+
+
